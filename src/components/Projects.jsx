@@ -1,14 +1,14 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import PrismREC from '../assets/RECPrism&Poise.mp4';
-import ZentryREC from '../assets/ZentryRecording.mp4';
-import SynerREC from '../assets/SynerREC.mp4';
-import SynerSS from '../assets/SynerSS.png';
-import ZentrySS from '../assets/ZentrySS.png';
-import PrismSS from '../assets/PrismSS.png';
-import NissiSS from '../assets/NissiSS.png';
-import NissiREC from '../assets/NissiRec2.mp4';
+import PrismREC from '../assets/RECPrism&Poise.webm';
+import ZentryREC from '../assets/ZentryRecording.webm';
+import SynerREC from '../assets/SynerREC.webm';
+import SynerSS from '../assets/SynerSS.webp';
+import ZentrySS from '../assets/ZentrySS.webp';
+import PrismSS from '../assets/PrismSS.webp';
+import NissiSS from '../assets/NissiSS.webp';
+import NissiREC from '../assets/NissiRec2.webm';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,7 +54,7 @@ const Projects = () => {
     gsap.to(projectsRef.current.children, {
       opacity: 1,
       y: 0,
-      duration: 1,
+      duration: 1.2,
       stagger: 0.2,
       ease: "power3.out",
       scrollTrigger: {
