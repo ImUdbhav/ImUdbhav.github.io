@@ -24,7 +24,7 @@ const Hero2 = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 1.8,
+        duration: 1.4,
         ease: "power3.InOut",
       }
     );
@@ -53,26 +53,26 @@ const Hero2 = () => {
       {/* Hero Content */}
       <div
         ref={contentRef}
-        className="absolute left-[5%] top-1/4 w-[90%] md:w-[60%] lg:w-[50%] text-left z-10"
+        className="absolute left-[7%] top-1/4 w-[90%] md:w-[60%] lg:w-[50%] text-left z-10"
       >
         <p className="font-light font-grotesk text-slate-400 text-sm md:text-base lg:text-lg leading-relaxed">
-          "Transforming creative visions into captivating realities through
-          innovative web development. Let your ideas come to life with designs
+          "Transforming creative visions into captivating realities 
+          through <span className="font-medium">innovative web development.</span> Let your ideas come to life with designs
           that inspire, interfaces that connect, and technology that empowers."
         </p>
       </div>
       {/* Marquee Text */}
-      <div className="marquee absolute -bottom-[80px]  w-full overflow-hidden py-20">
+      <div className="marquee absolute -bottom-[83px]  w-full overflow-hidden py-20">
         <div
           ref={marqueeRef}
           className="whitespace-nowrap inline-block"
           style={{ width: "fit-content" }}
         >
-          <span className="text-8xl md:text-9xl lg:text-[10rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500 px-4">
+          <span className="text-8xl md:text-9xl lg:text-[10rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500 px-4 leading-tight">
             Crafting Immersive Digital Experiences • Web Development • Frontend •
             ReactJS • TailwindCSS • Animations • GSAP • Modern Design
           </span>
-          <span className="text-8xl md:text-9xl lg:text-[10rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500 px-4">
+          <span className="text-8xl md:text-9xl lg:text-[10rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500 px-4 leading-tight">
             Crafting Immersive Digital Experiences • Web Development • Frontend •
             ReactJS • TailwindCSS • Animations • GSAP • Modern Design
           </span>
@@ -83,7 +83,7 @@ const Hero2 = () => {
         ref={leftSvgRef}
         src={svg3}
         alt="Decorative SVG"
-        className="absolute bottom-[14%] left-[8%] w-[18%] md:w-[16%] lg:w-[10%]  transform -translate-y-1/2"
+        className="absolute bottom-[17%] left-[8%] w-[18%] md:w-[16%] lg:w-[10%]  transform -translate-y-1/2"
       />
       <img
         ref={rightSvgRef}

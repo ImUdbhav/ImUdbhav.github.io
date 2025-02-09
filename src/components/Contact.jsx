@@ -46,13 +46,13 @@ const Contact = () => {
   const onSubmit = async (data) => {
     try {
       await emailjs.send(
-        'your_service_id',  // Replace with your EmailJS Service ID
-        'your_template_id', // Replace with your EmailJS Template ID
+        'service_urjw13b',  //  EmailJS Service ID
+        'template_j9rw9ol', //  EmailJS Template ID
         {
           from_email: data.email,
           message: data.message,
         },
-        'your_public_key' // Replace with your EmailJS Public Key
+        'C4-5BDun6bg4WSoQv' //  EmailJS Public Key
       );
 
       alert("Message sent successfully!");

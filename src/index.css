@@ -196,6 +196,7 @@
     font-family: 'Unbounded', sans-serif;
     animation: marquee-animation 140s linear infinite;
     display: inline-block;
+    line-height: 1.2; 
  
   }
 

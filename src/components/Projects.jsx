@@ -1,14 +1,16 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import PrismREC from '../assets/RECPrism&Poise.webm';
-import ZentryREC from '../assets/ZentryRecording.webm';
-import SynerREC from '../assets/SynerREC.webm';
+import PrismREC from '../assets/PrismRec3.webm';
+import ZentryREC from '../assets/ZentryRecFi.webm';
+import SynerREC from '../assets/SynerRec2.webm';
 import SynerSS from '../assets/SynerSS.webp';
 import ZentrySS from '../assets/ZentrySS.webp';
-import PrismSS from '../assets/PrismSS.webp';
+import PrismSS from '../assets/Prism&PoiseSS2.webp';
 import NissiSS from '../assets/NissiSS.webp';
 import NissiREC from '../assets/NissiRec2.webm';
+import CelestiaSS from '../assets/celestianightsss2.webp';
+import CelestiaREC from '../assets/CelestiaNightsRec.webm';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,6 +19,14 @@ const Projects = () => {
   const videoRefs = useRef([]);
 
   const projects = [
+    {
+      title: "CelestiaNights",
+      description: " An immersive, GSAP-powered event website showcasing an interactive festival experience with dynamic animations, smooth transitions, and engaging UI elements.",
+      tech: ["ReactJS", "GSAP", "Tailwind"],
+      video: CelestiaREC,
+      poster:  CelestiaSS
+    },
+   
     {
       title: "ZentryGaming",
       description: "ZentryGaming Clone - a gaming community website with immersive animations.",

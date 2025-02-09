@@ -111,7 +111,7 @@ const Nav = () => {
 
   return (
     <header className="fixed top-2 left-0 right-2 flex justify-between h-20 z-50">
-      <h1 className='font-unbounded text-slate-500 text-base font-light p-[13px]'>Im.Udbhav</h1>
+      <h1 className='font-unbounded text-slate-500 text-sm font-light p-[15px]'>Im.Udbhav</h1>
       <div className="custom-cursor hidden md:block" ref={cursorRef}></div>
       <div className="relative w-full">
         <button

@@ -35,7 +35,7 @@ const Footer = () => {
               GitHub
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://linkedin.com/in/yourusername"
               target="_blank"
@@ -44,7 +44,7 @@ const Footer = () => {
             >
               LinkedIn
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="mailto:your.email@example.com"
