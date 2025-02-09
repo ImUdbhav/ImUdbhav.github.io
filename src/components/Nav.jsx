@@ -117,7 +117,7 @@ const Nav = () => {
         <button
           ref={btnRef}
           onClick={toggleNav}
-          className={`header_btn absolute right-8 top-4 z-[60] w-12 h-12 cursor-pointer rounded-full transition-all duration-300 hover:scale-110
+          className={`header_btn absolute right-4 md:right-8 top-2 md:top-4 z-[60] w-12 h-12 cursor-pointer rounded-full transition-all duration-300 hover:scale-110
             ${isOpen ? 'bg-black' : 'bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500'}`}
           type="button"
           aria-label="Toggle navigation"
