@@ -7,7 +7,7 @@ import SynerREC from '../assets/SynerRec2.webm';
 import SynerSS from '../assets/SynerSS.webp';
 import ZentrySS from '../assets/ZentrySS.webp';
 import PrismSS from '../assets/Prism&PoiseSS2.webp';
-import NissiSS from '../assets/NissiSS.webp';
+import NissiSS from '../assets/NISSISS.webp';
 import NissiREC from '../assets/NissiRec2.webm';
 import CelestiaSS from '../assets/celestianightsss2.webp';
 import CelestiaREC from '../assets/CelestiaNightsRec.webm';
