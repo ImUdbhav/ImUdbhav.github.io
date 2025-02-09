@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import svg3 from "../assets/EyeWeb.svg";
+import svg3 from "../assets/Eyeweb.svg";
 import svg4 from "../assets/svg4.svg";
 gsap.registerPlugin(ScrollTrigger);
 const Hero2 = () => {
