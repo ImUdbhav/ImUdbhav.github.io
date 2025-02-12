@@ -182,7 +182,7 @@ const Services = () => {
               <span className="text-4xl text-indigo-400 animate-pulse mb-2">
                 {['✦', '◉', '◆'][index]}
               </span>
-              <span className="text-xl text-slate-400 hover:text-indigo-300 
+              <span className="text-lg md:text-xl text-slate-400 hover:text-indigo-300 
                 transition-colors cursor-help">
                 {text}
               </span>
